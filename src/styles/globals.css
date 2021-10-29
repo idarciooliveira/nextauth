@@ -1,0 +1,65 @@
+/*IMPORTAÇÕES*/
+@import './login.css';
+
+html {
+  min-height: 100vh;
+}
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: var(--primary-color);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: var(--text-color);
+}
+body::-webkit-scrollbar {
+  width: 0px;
+  background: transparent !important;
+}
+body::-webkit-scrollbar-thumb {
+  border-radius: 20px;
+  background: var(--terth-color);
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+input,
+button,
+select {
+  border: none;
+  outline: none;
+}
+img {
+  object-fit: cover;
+}
+i {
+  font-size: 20px;
+}
+/*COLORS*/
+:root {
+  --primary-color: #070618;
+  --secondary-color: #0d0f24;
+  --terth-color: #1a1c31;
+  --text-color: #9e9ca2;
+  --title-color: #ebe9ef;
+  --white-color: #fff;
+  --green-color: #00c776;
+  --green-dark-color: #008282;
+  --red-color: #f36950;
+  --orange-color: #fea610;
+  --blue-color: #006bff;
+}

@@ -1,0 +1,78 @@
+.main_login {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+}
+.login {
+  width: 100%;
+  height: 100%;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.box {
+  width: 100%;
+  padding: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.box .h_logo {
+  margin-bottom: 20px;
+}
+.box form {
+  max-width: 450px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.box form section {
+  width: 100%;
+  display: grid;
+  grid-auto-flow: row;
+  gap: 20px;
+}
+.text_input input {
+  width: 100%;
+  height: 60px;
+  background-color: var(--secondary-color);
+  border-radius: 5px;
+  padding: 0 1.5rem;
+  font-size: 18px;
+  color: var(--text-color);
+  transition: 0.3s;
+}
+.text_input input::placeholder {
+  color: var(--terth-color);
+}
+.text_input input:focus {
+  border: 3px solid #1a1c31;
+}
+.btn_in {
+  height: 60px;
+  background-color: var(--orange-color);
+  border-radius: 5px;
+  transition: 0.3s;
+}
+.btn_in p {
+  font-size: 18px;
+  color: var(--white-color);
+}
+.btn_in:hover {
+  cursor: pointer;
+  transform: scale(1.03);
+}
+
+@media (max-width: 768px) {
+  .text_input input,
+  .btn_in {
+    height: 55px;
+  }
+}
